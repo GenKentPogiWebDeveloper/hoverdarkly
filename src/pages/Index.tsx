@@ -13,14 +13,14 @@ const Index = () => {
             SKILLSWAP
           </h1>
           <div className="space-y-4">
-            <Link to="/become-provider">
-              <Button variant="outline" className="w-full max-w-md mb-4">
-                BECOME A SERVICE PROVIDER
+            <Link to="/find-provider">
+              <Button className="w-full max-w-md mb-4">
+                FIND A SERVICE PROVIDER
               </Button>
             </Link>
-            <Link to="/find-provider">
-              <Button className="w-full max-w-md">
-                FIND A SERVICE PROVIDER
+            <Link to="/become-provider">
+              <Button variant="outline" className="w-full max-w-md">
+                BECOME A SERVICE PROVIDER
               </Button>
             </Link>
           </div>
