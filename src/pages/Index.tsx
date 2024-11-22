@@ -23,18 +23,18 @@ const Index = () => {
               alt="SkillSwap Logo"
               className="w-16 h-16"
             />
-            <h1 className="text-5xl font-bold text-violet-900">SKILLSWAP</h1>
+            <h1 className="text-5xl font-arista text-violet-900 drop-shadow-[0_0_25px_rgba(139,92,246,0.3)]">SKILLSWAP</h1>
           </div>
           
           <div className="space-y-6">
             <Link to="/find-provider" className="block">
-              <Button className="w-full max-w-md py-6 text-xl font-semibold rounded-full bg-gradient-to-r from-white to-violet-300 hover:from-violet-100 hover:to-violet-400 text-violet-900 transition-all duration-300">
+              <Button className="w-full max-w-md py-6 text-xl font-bold rounded-full bg-gradient-to-r from-white to-violet-300 hover:from-violet-100 hover:to-violet-400 text-violet-900 transition-all duration-300 shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
                 FIND A SERVICE PROVIDER
               </Button>
             </Link>
             
             <Link to="/become-provider" className="block">
-              <Button className="w-full max-w-md py-6 text-xl font-semibold rounded-full bg-gradient-to-r from-white to-violet-300 hover:from-violet-100 hover:to-violet-400 text-violet-900 transition-all duration-300">
+              <Button className="w-full max-w-md py-6 text-xl font-bold rounded-full bg-gradient-to-r from-white to-violet-300 hover:from-violet-100 hover:to-violet-400 text-violet-900 transition-all duration-300 shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]">
                 BECOME A SERVICE PROVIDER
               </Button>
             </Link>
