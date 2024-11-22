@@ -20,6 +20,7 @@ export default {
     extend: {
       fontFamily: {
         'arista': ['Arista Rise', 'sans-serif'],
+        'callum': ['Callum', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

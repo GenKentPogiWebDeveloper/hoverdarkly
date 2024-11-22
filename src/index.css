@@ -7,6 +7,11 @@
   src: url('/fonts/AristaRise.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Callum';
+  src: url('/fonts/Callum.ttf') format('truetype');
+}
+
 @layer base {
   body {
     @apply bg-background text-foreground transition-colors duration-300;
