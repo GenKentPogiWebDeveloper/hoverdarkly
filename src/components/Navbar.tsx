@@ -10,11 +10,7 @@ export function Navbar() {
           <span className="text-xl font-bold text-violet-900 drop-shadow-[0_0_35px_rgba(139,92,246,0.5)]">SKILLSWAP</span>
         </Link>
         
-        <div className="flex items-center space-x-8">
-          <Link to="/" className="nav-link">HOME</Link>
-          <Link to="/services" className="nav-link">SERVICES</Link>
-          <Link to="/info" className="nav-link">INFO</Link>
-          <Link to="/contact" className="nav-link">CONTACT</Link>
+        <div className="flex items-center">
           <ThemeToggle />
         </div>
       </div>
