@@ -10,9 +10,8 @@ export function Button({ className, variant = "default", ...props }: ButtonProps
     <button
       className={cn(
         "px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105",
-        variant === "default" && "bg-primary text-white hover:bg-primary-dark",
-        variant === "outline" && "border-2 border-primary text-primary hover:bg-primary hover:text-white",
-        "dark:bg-primary-dark dark:hover:bg-primary",
+        variant === "default" && "bg-[#FEC6A1] text-black hover:bg-[#FEC6A1]/90",
+        variant === "outline" && "border-2 border-[#FEC6A1] text-[#FEC6A1] hover:bg-[#FEC6A1] hover:text-black",
         className
       )}
       {...props}

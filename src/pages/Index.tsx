@@ -4,27 +4,31 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-light to-secondary dark:from-accent-dark dark:to-primary-dark transition-colors duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-[#E5DEFF] to-[#D946EF] transition-colors duration-300">
       <Navbar />
       
-      <main className="container mx-auto px-4 pt-24">
-        <section className="text-center py-20">
-          <h1 className="text-6xl font-bold mb-8 text-accent-dark dark:text-white">
-            SKILLSWAP
-          </h1>
-          <div className="space-y-4">
-            <Link to="/find-provider">
-              <Button className="w-full max-w-md mb-4">
+      <main className="container mx-auto px-4 pt-24 flex flex-col items-center justify-center min-h-screen">
+        <div className="text-center space-y-12 max-w-2xl mx-auto">
+          <img 
+            src="/lovable-uploads/2903cce3-ad9d-4e37-ac8b-08af62fe0a1f.png" 
+            alt="SkillSwap Logo with Text" 
+            className="w-full max-w-md mx-auto mb-16"
+          />
+          
+          <div className="space-y-6">
+            <Link to="/find-provider" className="block">
+              <Button className="w-full max-w-md py-6 text-xl font-semibold rounded-full bg-[#FEC6A1] hover:bg-[#FEC6A1]/90 text-black">
                 FIND A SERVICE PROVIDER
               </Button>
             </Link>
-            <Link to="/become-provider">
-              <Button variant="outline" className="w-full max-w-md">
+            
+            <Link to="/become-provider" className="block">
+              <Button className="w-full max-w-md py-6 text-xl font-semibold rounded-full bg-[#FEC6A1] hover:bg-[#FEC6A1]/90 text-black">
                 BECOME A SERVICE PROVIDER
               </Button>
             </Link>
           </div>
-        </section>
+        </div>
       </main>
     </div>
   );
