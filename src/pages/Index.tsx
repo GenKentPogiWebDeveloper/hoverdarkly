@@ -4,16 +4,27 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#E5DEFF] to-[#D946EF] transition-colors duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-violet-100 to-violet-500 transition-colors duration-300">
       <Navbar />
       
-      <main className="container mx-auto px-4 pt-24 flex flex-col items-center justify-center min-h-screen">
-        <div className="text-center space-y-12 max-w-2xl mx-auto">
-          <img 
-            src="/lovable-uploads/2903cce3-ad9d-4e37-ac8b-08af62fe0a1f.png" 
-            alt="SkillSwap Logo with Text" 
-            className="w-full max-w-md mx-auto mb-16"
-          />
+      <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <img 
+          src="/lovable-uploads/7ee10f8a-50aa-480c-834b-64e14fc4feba.png"
+          alt="Background Logo"
+          className="w-[800px]"
+        />
+      </div>
+      
+      <main className="container mx-auto px-4 pt-24 flex flex-col items-center justify-center min-h-screen relative">
+        <div className="text-center space-y-12 max-w-2xl mx-auto backdrop-blur-sm bg-white/30 p-12 rounded-3xl shadow-xl">
+          <div className="flex items-center justify-center gap-4 mb-16">
+            <img 
+              src="/lovable-uploads/7ee10f8a-50aa-480c-834b-64e14fc4feba.png"
+              alt="SkillSwap Logo"
+              className="w-16 h-16"
+            />
+            <h1 className="text-5xl font-bold text-violet-900">SKILLSWAP</h1>
+          </div>
           
           <div className="space-y-6">
             <Link to="/find-provider" className="block">
