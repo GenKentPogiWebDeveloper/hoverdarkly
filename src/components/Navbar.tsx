@@ -7,6 +7,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <img src="/lovable-uploads/89089f36-d6dc-44ac-bf3a-f98d2433f78a.png" alt="SkillSwap Logo" className="h-8" />
+          <span className="text-xl font-bold text-violet-900 drop-shadow-[0_0_35px_rgba(139,92,246,0.5)]">SKILLSWAP</span>
         </Link>
         
         <div className="flex items-center space-x-8">
