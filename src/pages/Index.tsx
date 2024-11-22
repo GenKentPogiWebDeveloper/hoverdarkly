@@ -78,11 +78,11 @@ const services = [
   },
   { 
     name: "GRAPHIC DESIGNER", 
-    icon: "/placeholder.svg" 
+    icon: "/lovable-uploads/11092475-0915-45a7-8f9a-a1ff2b3ca425.png" 
   },
   { 
     name: "SELLING", 
-    icon: "/placeholder.svg" 
+    icon: "/lovable-uploads/eb207933-9ad0-43b1-b29d-4339827bee57.png" 
   },
   { 
     name: "MORE", 
