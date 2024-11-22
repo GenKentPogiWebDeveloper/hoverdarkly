@@ -23,7 +23,7 @@ const Index = () => {
               alt="SkillSwap Logo"
               className="w-16 h-16"
             />
-            <h1 className="text-5xl font-callum text-violet-900 tracking-[0.2em] drop-shadow-[0_0_25px_rgba(139,92,246,0.3)] transform skew-x-[-6deg]">SKILLSWAP</h1>
+            <h1 className="text-5xl font-bold text-violet-900 tracking-[0.2em] drop-shadow-[0_0_35px_rgba(139,92,246,0.5)] glow">SKILLSWAP</h1>
           </div>
           
           <div className="space-y-6">
